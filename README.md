@@ -207,7 +207,7 @@ speed: 20.0
 samples: 2
 sample_retract_dist: 5.0
 lift_speed: 30.0
-samples_tolerance: 0.005
+samples_tolerance: 0.01
 samples_tolerance_retries: 15
 deactivate_on_each_sample: 0
 
@@ -216,7 +216,7 @@ speed: 200
 horizontal_move_z: 25
 mesh_min: 25,25
 mesh_max: 95, 95
-probe_count: 5,5
+probe_count: 3,3
 algorithm: bicubic
 
 [servo probeServo]
