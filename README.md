@@ -178,7 +178,7 @@ In this example I am hooking up to the "BL-Touch" connector of the SKR mini e3 v
 If you are fancy you can crimp that onto a 5 pin jst-xh plug, otherwise you can just plug it straight into the header.
 
 Here a crude diagram of how this could be wired up. If you wired it differently, you'll need to pay special attention during the klipper setup.
-![Wiring](Images/Wiring.jpg)
+![Wiring](Images/Wiring.JPG)
 
 ## Klipper setup
 
