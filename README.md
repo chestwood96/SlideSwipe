@@ -199,7 +199,7 @@ gcode:
     G90
 
 [probe]
-pin: ^PC13
+pin: ^PC14
 x_offset: 20
 y_offset: 0
 z_offset: 10
@@ -296,6 +296,9 @@ gcode:
     SS_CONDITIONAL_TAKE_PROBE
     BED_MESH_CALIBRATE
     SS_STOW_PROBE
+
+[force_move]
+enable_force_move: True
 ```
 
 and replace your z endstop with the probe:
