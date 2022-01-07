@@ -288,6 +288,8 @@ gcode:
 
 [force_move]
 enable_force_move: True
+
+[respond]
 ```
 
 and replace your z endstop with the probe:
