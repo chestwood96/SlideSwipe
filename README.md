@@ -224,17 +224,6 @@ pin: PA1
 minimum_pulse_width: 0.000544
 
 [gcode_macro SS_PICKUP_POS]
-variable_x: 95
-variable_y: 50
-variable_z: 70
-gcode:
-  M118 pickup pos X:{printer["gcode_macro SS_PICKUP_POS"].x} Y:{printer["gcode_macro SS_PICKUP_POS"].y} Z:{printer["gcode_macro SS_PICKUP_POS"].z}
-
-[gcode_macro SS_VARIABLES]
-variable_probe_attached:            False
-gcode:
-
-[gcode_macro SS_PICKUP_POS]
 variable_x: 115
 variable_y: 50
 variable_z: 30
