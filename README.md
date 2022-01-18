@@ -4,7 +4,7 @@ I liked the idea of the [SideSwipe](https://github.com/oldfar-t/Side-Swipe-Magne
 
 Taking probe             |  Stowing probe
 :-------------------------:|:-------------------------:
-![This is an image](Images/take.gif)  |  ![This is an image](Images/putBack.gif)
+![Take](Images/take.gif)  |  ![Stow](Images/putBack.gif)
 
 ## Pros and cons compared to SideSwipe
 | Pro | Con |
@@ -14,6 +14,8 @@ Taking probe             |  Stowing probe
 | + No loss in y area with the door closed |  |
 | + Bed can't hit the arm |  |
 | + Hot-swappable switches (ok, fair that's a bit of a gimmick)
+
+There is also the [option](Alternative_Mounts/FrontCowlingMount/README.md) of mounting it to the front of the colwing instead of using a new cowling if that is not an option.
 
 ## BOM
 ### Parts
