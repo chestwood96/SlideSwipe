@@ -1,6 +1,6 @@
 # SlideSwipe 1.0 (magnetic probe for the voron v0.1)
 ## Introduction
-I liked the idea of the [SideSwipe](https://github.com/oldfar-t/Side-Swipe-Magnetic-Probe) probe but didn't like that it would require either printing with the door open or loosing Y travel, so I made my own take on the idea.
+I liked the idea of the [SideSwipe](https://github.com/oldfar-t/Side-Swipe-Magnetic-Probe) probe but didn't like that it would require either printing with the door open or losing Y travel, so I made my own take on the idea.
 
 Taking probe             |  Stowing probe
 :-------------------------:|:-------------------------:
@@ -15,13 +15,13 @@ Taking probe             |  Stowing probe
 | + Bed can't hit the arm |  |
 | + Hot-swappable switches (ok, fair that's a bit of a gimmick)
 
-There is also the [option](Alternative_Mounts/FrontCowlingMount/README.md) of mounting it to the front of the colwing instead of using a new cowling if that is not an option.
+There is also the [option](Alternative_Mounts/FrontCowlingMount/README.md) of mounting it to the front of the cowling instead of using a new cowling if that is not an option.
 
 ## BOM
 ### Parts
 - 1x MG90s Metal gear servo (the SG90 plastic gear ones work too but are not reccomended)
 - 1x Omron(or omron size) mouse switch (I am using a kailh GM4.0 switch, but it's only marginally better than all the other switches I tested)
-- 5x 6x3mm round magnets (I used the cheapest crappiest ones I could find of aliexpress, need to be at least 2.7mm thick)
+- 5x 6x3mm round magnets (I used the cheapest crappiest ones I could find off aliexpress, need to be at least 2.7mm thick)
 - 1x 300mm servo extender cable (or make your own)
 - 1x 1.5m of stranded wire with <1.2mm od (I tested 30awg silicone wire and 26awg ptfe wire)
 - 2x JST-XH housing (only one housing and 2 crimping terminals if you don't want to wire to the 5pin probe port on the SKR mini E3 v2)
@@ -30,7 +30,7 @@ There is also the [option](Alternative_Mounts/FrontCowlingMount/README.md) of mo
 - 3x 16mm piece of 4od2id PTFE tube (does not need to be the nice stuff)
 - 1x 7mm piece of 4od2id PTFE tube (does not need to be the nice stuff) 
 ### Screws
-- 7x M3x6 Socket head screw (cap head probably works too, one needs to be at least slightly attracted to magnets)
+- 7x M3x6 Socket head screw (cap head probably work too, as long as they are at least slightly attracted to magnets)
 - 2x M3x8 Cap head screw
 - 2x M3 nut
 ### Tools
@@ -39,9 +39,9 @@ There is also the [option](Alternative_Mounts/FrontCowlingMount/README.md) of mo
 - A multimeter
 
 ## Printing
-All parts are designed to print in the orientation they come in and not require supports (If you have really bad overhang performance you can add a bit of support for the probe but it should not be necessary).
+All parts are designed to print in the orientation they come in and do not require supports (If you have really bad overhang performance you can add a bit of support for the probe but it should not be necessary).
 
-Designed to print in ABS at 0.4mm outer layer width and 0.2mm layer height.
+Designed to print in ABS at 0.4mm outer perimeter width and 0.2mm layer height.
 
 I recommend ironing for the following parts, the rest can be printed without:
 - Arm1
@@ -50,7 +50,7 @@ I recommend ironing for the following parts, the rest can be printed without:
 - ProbeCarrierBottom
 - RailMountTop
 
-If you are going to do accents, I reccomend printing the following parts in the accent color:
+If you are going to do accents, I recommend printing the following parts in the accent color:
 - Arm1
 - Arm2
 - Probe
@@ -60,39 +60,39 @@ If you are going to do accents, I reccomend printing the following parts in the 
 ### Probe
 ![ProbeParts](Images/ProbeParts.jpg)
 
-Crimp two short (about 5cm but cutting off is easier than adding...) pieces of wire and put them in the outer-most places in the JST-XH 5pin housings. I recomend testing the cripms at this point.
+Crimp two short (about 5cm but cutting off is easier than adding...) pieces of wire and put them in the outer-most places in the JST-XH 5pin housings. I recommend testing the cripms at this point.
 ![ProbeCrimp](Images/ProbeCrimp.jpg)
 
-Thread the wires through the holes, then put the connector in the probe. Make sure it's the right way around. Don't put it in all the way jet.
+Thread the wires through the holes, then put the connector in the probe. Make sure it's the right way around. Don't put it in all the way yet.
 ![ProbeInsert](Images/ProbeInsert.jpg)
 
-Add some superglue to the back of the connector and carefully push it all the way in while making sure the wires are not pinched. Make sure superglues does not get anywhere it shouldn't.
+Add some superglue to the back of the connector and carefully push it all the way in while making sure the wires are not pinched. Make sure superglue does not get anywhere it shouldn't.
 ![ProbeWires1](Images/ProbeWires1.jpg)
 
-Shorten the wires, so they stand a little over the edge (5-10mm is fine).
+Shorten the wires, so they extend a little past the edge (5-10mm is fine).
 ![ProbeWires2](Images/ProbeWires2.jpg)
 
 Strip as much of the wire as you can. You probably can't use normal wire strippers for that.
 ![ProbeWires3](Images/ProbeWires3.jpg)
 
-Put the stripped wires in the magnet holes. Make sure the not stripped parts are in the grooves, so they don't get in the way.
+Put the stripped wires in the magnet holes. Make sure the unstripped parts are in the grooves, so they don't get in the way.
 ![ProbeWires4](Images/ProbeWires4.jpg)
 
-Add somesuper glue to the rim of the holes and put the magnets in the holes **with the same polarity facing up**. Make sure the glue does not get on the wires too much and there is none on the top of the magnets. Also, try to get them as parallel with each other as possible (pressing them against a flat surface while drying helps). 
+Add some superglue to the rim of the holes and put the magnets in the holes **with the same polarity facing up**. Make sure the glue does not get on the wires too much and there is none on the top of the magnets. Also, try to get them as parallel with each other as possible (pressing them against a flat surface while drying helps). 
 
 Test continuity between the magnet and the jst pins.
 ![ProbeMagnets](Images/ProbeMagnets.jpg)
 
-After the glue dried insert the microswitch so the plunger is in the middle of the probe.
+After the glue has dried insert the microswitch so the plunger is in the middle of the probe.
 
 With the switch inserted there should be continuity between the magnets unless the switch is pressed.
 ![ProbeSwitch](Images/ProbeSwitch.jpg)
 
-Screw on M3x6 screw into the hole of the side of the probe. (make sure the screw is at least somewhat attracted to a magnet)
+Screw on an M3x6 screw into the hole of the side of the probe. (Make sure the screw is at least somewhat attracted to a magnet)
 ![ProbeScrew](Images/ProbeScrew.jpg)
 ![ProbeScrew2](Images/ProbeScrew2.jpg)
 
-The screw is not only attracted to magnets in one direction (because of influence from the magnet above it). Install the retention magnet in the probe carrier in the right orientation (using the probe as tool for installing it can help). Then add some glue to the back of the magnet to hold it in place (there is a hole in the part to allow easier gluing and removal of the magnet)
+The screw is not only attracted to magnets in one direction (because of the influence from the magnet above it). Install the retention magnet in the probe carrier in the right orientation (using the probe as a tool for installing it can help). Then add some glue to the back of the magnet to hold it in place (there is a hole in the part to allow easier gluing and removal of the magnet)
 ![ProbeCarrier](Images/ProbeCarrier.jpg)
 ![ProbeCarrier2](Images/ProbeCarrier2.jpg)
 
@@ -107,19 +107,19 @@ In this guide I am putting a connector (jst-ph) on the cowling for easier remova
 Crimp your connector to two short pieces of wire to your connector and feed them through the wire holes in the back of the cowling. Check your crimps.
 ![CowlingWires](Images/CowlingWires.jpg)
 
-Cut them so about 3-4cm of wire are standing out of both holes, then strip about 2cm of those.
+Cut them so about 3-4cm of wire are extending past the holes, then strip about 2cm off those.
 ![CowlingWires2](Images/CowlingWires2.jpg)
 
 Pull the wires back until there is only stripped wire in the holes and curl the rest of the wire in the holes.
 ![CowlingWires3](Images/CowlingWires3.jpg)
 
-Put some superglue on the rims of the holes and push the magnets in the holes **in the right orientation to match the probe**. Try to get those too as parallel to each other as possible by pushing them against a flat surface.
+Put some superglue on the rims of the holes and push the magnets in the holes **in the right orientation to match the probe**. Try to get those two as parallel to each other as possible by pushing them against a flat surface.
 
 Make sure there is no glue on the top of the magnets and check continuity between the magnets and the wires.
 
 ![CowlingMagnets](Images/CowlingMagnets.jpg)
 
-If the magnets were put in the right way the probe should stick to the cowling. Test the continuity between the wires, there should be continuity between the wires unless the switch is pressed or the probe is removed.
+If the magnets were put in the right way the probe should stick to the cowling. Test the continuity between the wires. There should be continuity between the wires unless the switch is pressed or the probe is removed.
 ![CowlingAndProbe](Images/CowlingAndProbe.jpg)
 
 ### Probe holder
@@ -127,7 +127,7 @@ Find the servo arm that fits the arm the best and cut off anything else on that 
 ![ArmServoArm](Images/ArmServoArm.jpg)
 ![ArmServoArm2](Images/ArmServoArm2.jpg)
 
-Zero the servo (and check that it has at least over 90° of travel and isn't a continuously rotating one) and install the chosen arm, so it points a little over 90° when at the max point (picture is the max point).
+Zero the servo (and check that it has at least over 90° of travel and isn't a continuously rotating one) and install the chosen arm so it points a little over 90° when at the max point (picture is the max point).
 ![ArmServoArm3](Images/ArmServoArm3.jpg)
 
 Pull the servo wire through the hole.
@@ -141,7 +141,7 @@ Insert the servo into the mount and fix it using 2 M3x6 screws
 Insert the short piece of PTFE in the left hole of "RailMountTop".
 ![ArmServoMount5](Images/ArmServoMount5.jpg)
 
-Insert one of the longer pieces of ptfe into one of the holes of "Arm2"(the solid one).
+Insert one of the longer pieces of ptfe into one of the holes of "Arm2" (the solid one).
 ![Arm1](Images/Arm1.jpg)
 
 Put "Arm2" and "Arm1" onto the servo carrier like shown.
@@ -172,19 +172,19 @@ put the servo wire into the groove of the extrusion and tip the mount into it. F
 
 Adjust the height to where it can grab the probe, but the arm does not hit the printhead then fix it in place.
 
-Rout the servo wire through the slot in the front extrusion upwards into the slot of the top extrusion. The stock wire should be just long enough to pass through the panel though you'll probably have to remove the connector housing for that.
+Route the servo wire through the slot in the front extrusion upwards into the slot of the top extrusion. The stock wire should be just long enough to pass through the panel, though you'll probably have to remove the connector housing for that.
 
 ## Wiring
 In this example I am hooking up to the "BL-Touch" connector of the SKR mini e3 v2.0
 
 If you are fancy you can crimp that onto a 5 pin jst-xh plug, otherwise you can just plug it straight into the header.
 
-Here a crude diagram of how this could be wired up. If you wired it differently, you'll need to pay special attention during the klipper setup.
+Here is a crude diagram of how this could be wired up. If you wired it differently you'll need to pay special attention during the klipper setup.
 ![Wiring](Images/Wiring.JPG)
 
 ## Klipper setup
 
-Put this in your klipper config. (If your wired it differently, adjust the pins for the probe and the servo)
+Put this in your klipper config. If you wired it differently, adjust the pins for the probe and the servo
 ```
 [homing_override]
 axes: z
@@ -308,7 +308,7 @@ Also add the following to your print start (either in klipper or in your slicer)
 After the calibration you should be able to use the G29 macro to mesh level your bed.
 
 ### Calibrating the servo angles
-Using the servo command, find good values where the servo reliably hit the deployed and stowed position. The mechanism mechanically limits the travel but having the servo trying to push against it the whole time isn't great for it, so try to find some values that don't go way over the limits.
+Using the servo command, find good values where the servo reliably hits the deployed and stowed position. The mechanism mechanically limits the travel. Having the servo try to push against it the whole time isn't great for it, so try to find some values that don't go way over the limits.
 
 Once you have found the right values, update the "SS_DEPLOY" and "SS_RETRACT" macros with your new values.
 
@@ -317,14 +317,15 @@ This should already be somewhat acurate but if it isn't find the pickup position
 
 ## First tests
 ### Check the probe and config
-Let's see if klipper can see the probe, the "QUERY_PROBE" command is our friend here:
-With the probe attached (by hand for now) it should return "open", with the button pressed it should return "triggered" and with the probe removed it should also return "triggered". If this is not true for your setup don't proceed and go check your wiring and config.
+Let's see if klipper can see the probe. The "QUERY_PROBE" command is our friend here.
 
-If theat worked out put the probe in the probe carrier and let's do a test run. The homing override uses the probe so all we'll have to do to see if it works is run G28.
+With the probe attached (by hand for now) it should return "open". With the button pressed it should return "triggered" and with the probe removed it should also return "triggered". If this is not true don't proceed, and go check your wiring and config.
 
-It should now home x and y and then pick up the probe and probe for Z, be ready to cut power if something weird happens.
+If that worked out put the probe in the probe carrier and do a test run. The homing override uses the probe so all we'll have to do to see if it works is run `G28`.
 
-To make sure everything has settled, I like to do a couple hundred probes before I do stuff like calibrating the Z-offset.
+It should now home x and y, then pick up the probe and probe for Z. Be ready to cut power if something weird happens.
+
+To make sure everything has settled I like to do a couple hundred probes before I do stuff like calibrating the Z-offset.
 
 ```
 PROBE_ACCURACY samples=100
